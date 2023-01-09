@@ -3,7 +3,7 @@
 With VISAGE, you can quickly and easily detect faces in pictures from your device. Simply upload a photo, and our advanced algorithms will do the rest, accurately identifying and marking any faces it finds. Whether you're a professional photographer looking for an efficient editing tool or a casual user curious about the technology behind facial recognition, VISAGE has something to offer you. So give it a try, and see the power of AI at work in action!"
 
 <p align="center">
-  <img src="main.jpg"/>
+  <img src="main.png"/>
 </p>
 
 ## Technologies Used:
@@ -12,7 +12,9 @@ With VISAGE, you can quickly and easily detect faces in pictures from your devic
 3) Vanilla JS
 4) HTML
 5) CSS
-6) Netlify (for deployment)
+6) Netlify 
+
+<h4>(Live Site):  https://visage-face-detector-10.netlify.app/ </h4>
 
 
 # Getting Started with Create React App
