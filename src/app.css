@@ -1,0 +1,205 @@
+.app {
+  display: flex;
+
+}
+
+canvas {
+  position: absolute;
+}
+
+.navbar {
+  height: 50px;
+  background: linear-gradient(269deg,#242425 1.77%,#111111 99.15%);
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 0px 100px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.newPostCard {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-125deg, #090b99, #8e1ccc, #b8087d, #d5236a);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+
+}
+.addPost {
+  display: flex;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.addImg {
+  width: 25px;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  margin-left: 90px;
+}
+
+
+
+button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(14, 14, 14);
+  cursor: pointer;
+  border-radius: 80px;
+}
+
+.postInput {
+  height: 150px;
+  width:  150px;
+  margin-left: 110px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  justify-content: center;
+  
+}
+
+.container {
+
+height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  background: linear-gradient(-125deg, #090b99, #8e1ccc, #b8087d, #d5236a);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  background: #0c95d9;
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rightInput {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 40px;
+  border: none;
+}
+
+.rightButton {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.friendInput {
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 80px;
+  margin-left: -20px;
+}
+
+.friends {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name {
+  font-weight: bold;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 600px){
+
+  .navbar {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .newPostCard{
+    width: auto;
+    
+  }
+
+  .addImg{
+    width: 130px;
+    height: 130px;
+  }
+
+  .postInput{
+    width: 80px;
+    height: 80px;
+    margin-right: 80px;
+  }
+
+  .right{
+    width: auto;
+    height: auto;
+  
+  }
+  .rightButton {
+    width: auto
+  }
+
+  .rightInput{
+    width: auto;
+  }
+  .friendInput {
+    width: auto;
+  }
+
+  canvas{
+    width: auto;
+    height: auto;
+    position: absolute;
+  }
+}
