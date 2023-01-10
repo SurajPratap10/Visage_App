@@ -21,7 +21,7 @@ const NewPost = ({ image }) => {
 
   const enter = () => {
     const ctx = canvasRef.current.getContext("2d");
-    ctx.lineWidth = 3;
+    ctx.lineWidth = 4;
     ctx.strokeStyle = "#e31153";
     faces.map((face) => ctx.strokeRect(...face));
   };
